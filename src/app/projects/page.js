@@ -12,36 +12,6 @@ const Projects = () => {
           <span className="text-blue-600 mr-2">&#9632;</span> My Projects
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 px-5 font-sans">
-          {/* Project 1 */}
-          <div className="bg-white w-full shadow-lg p-5 flex items-center gap-10 relative">
-            <div className="flex-1">
-              <h3 className="text-xl font-bold text-blue-700 mb-2 pl-4 ml-[-1.2rem] relative">
-                Friend Ferry
-                <span className="absolute left-0 top-[-0.5rem] bottom-[-0.5rem] w-9 border-l-8 border-black-600"></span>
-              </h3>
-              <p className="text-black-600 font-sans font-extralight text-base mb-20">
-                Developed a website that allows users to find and book
-                companions to accompany them to social events. Front-end was
-                built using Figma, HTML, CSS, and JavaScript while the back-end
-                was put together with Supabase.
-              </p>
-              <a
-                href="https://friendferry.com/"
-                target="_blank"
-                className="inline-block bg-blue-600 text-white text-sm rounded-full px-5 py-1 hover:bg-blue-700"
-              >
-                Live
-              </a>
-            </div>
-            <div className="w-1/2 flex-shrink-0">
-              <img
-                src="/images/friend.png"
-                alt="Friend Ferry"
-                className="w-auto h-auto"
-              />
-            </div>
-          </div>
-
           {/* Project 2 */}
           <div className="bg-white w-full shadow-lg p-5 flex items-center gap-10 relative">
             <div className="flex-1">
@@ -71,24 +41,53 @@ const Projects = () => {
             </div>
           </div>
 
+          {/* Project 1 */}
+          <div className="bg-white w-full shadow-lg p-5 flex items-center gap-10 relative">
+            <div className="flex-1">
+              <h3 className="text-xl font-bold text-blue-700 mb-2 pl-4 ml-[-1.2rem] relative">
+                Friend Ferry
+                <span className="absolute left-0 top-[-0.5rem] bottom-[-0.5rem] w-9 border-l-8 border-black-600"></span>
+              </h3>
+              <p className="text-black-600 font-sans font-extralight text-base mb-20">
+                Developed a website that allows users to find and book
+                companions to accompany them to social events. Front-end was
+                built using Figma, HTML, CSS, and JavaScript while the back-end
+                was put together with Supabase.
+              </p>
+              <a
+                href="https://friendferry.com/"
+                target="_blank"
+                className="inline-block bg-blue-600 text-white text-sm rounded-full px-5 py-1 hover:bg-blue-700"
+              >
+                Live
+              </a>
+            </div>
+            <div className="w-1/2 flex-shrink-0">
+              <img
+                src="/images/friend.png"
+                alt="Friend Ferry"
+                className="w-auto h-auto"
+              />
+            </div>
+          </div>
           {/* Project 3 */}
           <div className="bg-white w-full shadow-lg p-5 flex items-center gap-10 flex-row-reverse relative">
             <div className="w-1/2 flex-shrink-0">
               <img
-                src="/images/calculator.png"
+                src="/images/grows.png"
                 alt="Calculator Project"
                 className="w-auto h-auto"
               />
             </div>
             <div className="flex-1">
               <h3 className="text-xl font-bold text-blue-700 mb-2 pl-4 ml-[-1.2rem] relative">
-                Calculator
+                Grow
                 <span className="absolute left-0 top-[-0.5rem] bottom-[-0.5rem] w-9 border-l-8 border-black-600"></span>
               </h3>
               <p className="text-black-600 font-sans font-extralight text-base mb-20">
-                Designed and developed a calculator application with responsive
-                features. Built using HTML, CSS, and JavaScript to handle
-                accurate calculations with a clean UI.
+                Grow is a plant care tracker built with Next.js, React, and Node
+                express + Mongo DB for the backend. It helps you monitor
+                watering schedules and keeps your plants thriving.
               </p>
               <a
                 href="https://snapedev.github.io/calculator/"
