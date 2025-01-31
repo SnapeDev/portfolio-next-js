@@ -90,7 +90,7 @@ const Projects = () => {
                 watering schedules and keeps your plants thriving.
               </p>
               <a
-                href="https://snapedev.github.io/calculator/"
+                href="https://plant-app-git-main-snapedevs-projects.vercel.app/"
                 target="_blank"
                 className="inline-block bg-blue-600 text-white text-sm rounded-full px-5 py-1 hover:bg-blue-700"
               >
